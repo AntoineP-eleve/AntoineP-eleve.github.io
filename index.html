@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="../video-11/scripts.js"></script>
+  
+</head>
+<dialog id="dialog">
+  <h1 id="titre">Projet Personnel</h1>
+  <p id="cours"><i>Design web gr.1 - Automne 2024</i></p>
+  <h4 id="fait">Réalisé par :</h4>
+  <p id="nomComplet"><i>Antoine Perreault</i></p>
+  <h4 id="modif">Modification de :</h4>
+  <p id="jeuBase"><a href="https://github.com/code-sketch/memory-game" target="_blank"><i>https://github.com/code-sketch/memory-game</i></a></p>
+  <img src="../img/megaman.png" width="160px" id="imgMegaman">
+  <button onclick="fermerDialogue()" id="plusAfficher">Fermer la fenêtre</button>
+  <button onclick="fermerPourToujours()" id="jamaisAfficher"><i>Ne plus afficher cette fenêtre</i></button>
+</dialog>
+<body>
+
+  <div id="timer">0:00</div>
+
+  <section class="memory-game">
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="../img/64772e07b4431637179316.svg" alt="Aurelia" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="aurelia">
+      <img class="front-face" src="../img/64772e07b4431637179316.svg" alt="Aurelia" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="../img/651d33f8e6a1f.svg" alt="Vue" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="vue">
+      <img class="front-face" src="../img/651d33f8e6a1f.svg" alt="Vue" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="../img/Esports_organization_Fnatic_logo.svg.svg" alt="Angular" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="angular">
+      <img class="front-face" src="../img/Esports_organization_Fnatic_logo.svg.svg" alt="Angular" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="../img/dca94c8d2a05cd864ad2a157e9dde4f9.svg" alt="Ember" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="ember">
+      <img class="front-face" src="../img/dca94c8d2a05cd864ad2a157e9dde4f9.svg" alt="Ember" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="../img/1200px-T1logo_square.svg" alt="Backbone" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="backbone">
+      <img class="front-face" src="../img/1200px-T1logo_square.svg" alt="Backbone" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="../img/images.svg" alt="React" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+    <div class="memory-card" data-framework="react">
+      <img class="front-face" src="../img/images.svg" alt="React" />
+      <img class="back-face" src="../img/valorant-logo-FAB2CA0E55-seeklogo.com.svg" alt="JS Badge" />
+    </div>
+  </section>
+
+  
+</body>
+</html>
